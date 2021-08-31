@@ -30,10 +30,12 @@
         <script type=module>
         const item={"type":"board","ID":0}
         window.onload = async () => {
+            console.log("load");
             load_board(item);
         };
         
         write.onclick=async()=>{
+            console.log("add");
             add_board(item);
         }
         </script>

@@ -1,4 +1,7 @@
 "use strict";
+//import {fetchJSON} from "https://js.sabae.cc/fetchJSON.js";
+
+console.log("import board.js")
 
 const enc = (s) => {
     s = s.replace(/&/g, "&amp;");
